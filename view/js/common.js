@@ -1,5 +1,4 @@
-// 长链地址
-var wsUri = "ws://172.16.1.74:8889/";
+
 // 用户code
 var code = getUrlParam("code");
 

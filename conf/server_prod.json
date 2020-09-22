@@ -1,5 +1,5 @@
 {
-  "LogLevel": "debug",
+  "LogLevel": "prod",
   "LogPath": "",
   "WSAddr": ":8889",
   "CertFile": "",

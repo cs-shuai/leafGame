@@ -1,0 +1,13 @@
+version: '2.2'
+services:
+  leafGame:
+    image: leaf-game:v1
+    container_name: leaf-game
+    ports:
+      - "8889:8889"
+      - "8888:8888"
+    volumes:
+      - data01:/Users/cs_shuai/code/leaf-game
+volumes:
+  data01:
+    driver: local

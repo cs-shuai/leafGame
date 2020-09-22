@@ -1,17 +1,22 @@
 FROM golang
 
 EXPOSE 8889
+EXPOSE 8888
 
 ENV TZ Asia/Shanghai
+ENV GO111MODULE on
+ENV GOPROXY https://goproxy.io
+
+WORKDIR /code
 
 RUN git clone https://github.com/cs-shuai/leafGame.git
 
-WORKDIR $GOPATH/src/leafGame
+WORKDIR /code/leafGame
 
-CMD cd leafGame
+RUN go mod vendor
 
-CMD go mod vendor
+RUN go build -o leafGame main.go
 
-CMD go run main.go
+CMD ./leafGame
 
 

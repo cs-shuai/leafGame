@@ -1,0 +1,68 @@
+<br>
+<h1 class="name-title" id='name'></h1>
+<!--房间号: <input type='text' id='number' value="">-->
+<!--<br>-->
+<a href="javascript:;" class="weui-btn weui-btn_primary open-popup" data-target="#half">创建房间</a>
+<a href="javascript:;" class="weui-btn weui-btn_primary open-popup" data-target="#login">进入房间</a>
+<div id="half" class="weui-popup__container popup-bottom" style="opacity: 1; display: none;">
+    <div class="weui-popup__overlay"></div>
+    <div class="weui-popup__modal">
+        <div class="toolbar">
+            <div class="toolbar-inner">
+                <a href="javascript:;" class="picker-button close-popup">关闭</a>
+                <h1 class="title">标题</h1>
+            </div>
+        </div>
+        <div class="modal-content">
+            <div class="weui-cells weui-cells_form">
+                <div class="weui-cell">
+                    <div class="weui-cell__bd">
+                        <p>总人数</p>
+                    </div>
+                    <div class="weui-cell__ft">
+                        <div class="weui-count">
+                            <a class="weui-count__btn weui-count__decrease"></a>
+                            <input class="weui-count__number" id="TotalNumber" type="number" value="3">
+                            <a class="weui-count__btn weui-count__increase"></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="weui-cell">
+                    <div class="weui-cell__bd">
+                        <p>卧底人数</p>
+                    </div>
+                    <div class="weui-cell__ft">
+                        <div class="weui-count">
+                            <a class="weui-count__btn weui-count__decrease"></a>
+                            <input class="weui-count__number" id="UndercoverNumber" type="number" value="1">
+                            <a class="weui-count__btn weui-count__increase"></a>
+                        </div>
+                    </div>
+                </div>
+                <a href="javascript:;" class="weui-btn weui-btn_primary close-popup" onclick="createRoom()">创建房间</a>
+            </div>
+        </div>
+    </div>
+</div>
+<div id="login" class="weui-popup__container popup-bottom" style="opacity: 1; display: none;">
+    <div class="weui-popup__overlay"></div>
+    <div class="weui-popup__modal">
+        <div class="toolbar">
+            <div class="toolbar-inner">
+                <a href="javascript:;" class="picker-button close-popup">关闭</a>
+                <h1 class="title">标题</h1>
+            </div>
+        </div>
+        <div class="modal-content">
+            <div class="weui-cells weui-cells_form">
+                <div class="weui-cell">
+                    <div class="weui-cell__hd"><label class="weui-label">房间号</label></div>
+                    <div class="weui-cell__bd">
+                        <input class="weui-input" pattern="[0-9]*" placeholder="请输入房间号" id="RoomId" type="number">
+                    </div>
+                </div>
+                <a href="javascript:;" class="weui-btn weui-btn_primary close-popup" onclick="joinRoom()">进入房间</a>
+            </div>
+        </div>
+    </div>
+</div>

@@ -1,0 +1,13 @@
+{
+  "LogLevel": "debug",
+  "LogPath": "",
+  "WSAddr": ":8889",
+  "CertFile": "",
+  "KeyFile": "",
+  "TCPAddr": ":8888",
+  "MaxConnNum": 20000,
+  "ConsolePort": 8012,
+  "ProfilePath": "",
+  "Database": "root:123456@tcp(127.0.0.1:3306)/game",
+  "NatsUrl": "nats://127.0.0.1:4222"
+}

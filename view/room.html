@@ -1,0 +1,21 @@
+
+<div class="div-button">
+    <h1 class="name-title">昵称: <span id='userName'></span></h1>
+    <br>
+    <a href="javascript:;" class="weui-btn weui-btn_primary btn-zb" onclick="Prepare()">准备</a>
+    <a href="javascript:;" class="weui-btn weui-btn_primary weui-btn_disabled btn-ks" onclick="StartGame()">开始游戏</a>
+</div>
+
+<div class="weui-search-bar">
+    <input type="search" class="search-input" id="SendMessage">
+    <button class="weui-btn weui-btn_mini weui-btn_primary" onclick="SendMessage()"><i class="icon icon-5"></i></button>
+</div>
+<script>
+    $("#top").html("房间号" +User.roomId)
+    $("#userName").html(User.userName)
+    if (isHomeowner) {
+        $(".btn-zb").hide()
+    } else {
+        $(".btn-ks").hide()
+    }
+</script>

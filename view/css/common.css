@@ -1,0 +1,21 @@
+.weui-flex {
+    height: 200px;
+    overflow: auto;
+    padding: 20px;
+}
+
+.name-title {
+    text-align: center;
+    font-size: 22px;
+    color: #3cc51f;
+    font-weight: 400;
+    margin: 0 15%;
+    padding: 10px 0;
+}
+
+.weui-search-bar {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    left: 0;
+}

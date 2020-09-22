@@ -1,7 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="0139502f-35cd-4d29-81a2-b26d78dd2a76" name="默认的" comment="" />
+    <list default="true" id="0139502f-35cd-4d29-81a2-b26d78dd2a76" name="默认的" comment="init">
+      <change beforePath="$PROJECT_DIR$/.idea/leafGame.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -24,6 +29,7 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="GO_FMT" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="configurable.Global.GOPATH.is.expanded" value="true" />
@@ -46,7 +52,21 @@
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="init" />
+    <option name="LAST_COMMIT_MESSAGE" value="init" />
+  </component>
   <component name="VgoProject">
     <integration-enabled>true</integration-enabled>
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="520" y="96" key="CommitChangelistDialog2" timestamp="1600761936298">
+      <screen x="0" y="0" width="1680" height="1050" />
+    </state>
+    <state x="520" y="96" key="CommitChangelistDialog2/-1920.-511.1920.1080/0.0.1680.1050/1680.-633.1080.1920@0.0.1680.1050" timestamp="1600761936298" />
+    <state x="440" y="265" key="Vcs.Push.Dialog.v2" timestamp="1600761781800">
+      <screen x="0" y="0" width="1680" height="1050" />
+    </state>
+    <state x="440" y="265" key="Vcs.Push.Dialog.v2/-1920.-511.1920.1080/0.0.1680.1050/1680.-633.1080.1920@0.0.1680.1050" timestamp="1600761781800" />
   </component>
 </project>
